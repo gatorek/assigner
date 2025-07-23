@@ -27,7 +27,7 @@ defmodule Assigner do
 
   defp assign_by_variable(value, var) do
     quote do
-      var!(unquote(var)) = unquote(value)
+      unquote(var) = unquote(value)
     end
   end
 end
