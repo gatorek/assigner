@@ -1,6 +1,6 @@
 # Assigner
 
-Assigner is a simple macro that allows you to assign values to variables by atom.
+Assigner is a simple macro that allows you to assign values to variables in a pipeline.
 
 ## Usage
 
