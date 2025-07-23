@@ -13,6 +13,9 @@ defmodule Assigner do
 
       var when is_atom(var) ->
         assign_by_atom(value, var)
+
+      _ ->
+        raise(ArgumentError, "expected second parameter to be an atom or a variable, got: #{inspect(var)}")
     end
   end
 
