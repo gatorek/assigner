@@ -2,6 +2,17 @@
 
 Assigner is a simple macro that allows you to assign values to variables by atom.
 
+## Usage
+
+```elixir
+use Assigner
+
+2 + 2
+|> assign(:a)
+
+assert a == 4
+```
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
