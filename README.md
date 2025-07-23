@@ -11,6 +11,13 @@ use Assigner
 |> assign(:a)
 
 assert a == 4
+
+# or
+
+4 * 4
+|> assign(b) # no need to initialize a variable
+
+assert b == 16
 ```
 
 ## Installation
